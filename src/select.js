@@ -1,7 +1,5 @@
-window.onload = function() {
-  let planningPokerButtons = getPlanningPokerButtons();
-  addEventListeners(planningPokerButtons);
-};
+let planningPokerButtons = getPlanningPokerButtons();
+addEventListeners(planningPokerButtons);
 
 function getPlanningPokerButtons() {
     return document.querySelectorAll('.planning-poker-button');
