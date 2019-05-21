@@ -11,7 +11,7 @@ function addEventListeners(nodeList) {
     nodeList.forEach(node => {
         node.addEventListener('click', function(event) {
             var target = event.target || event.srcElement;
-            window.location = "score.html?value="+target.innerHTML;
+            window.location = "score.html?value="+target.value;
         });
     });
 }
