@@ -1,0 +1,6 @@
+@import "variables.css";
+
+.planning-poker-button {
+    color: var(--blue-color);
+    cursor: pointer;
+}
